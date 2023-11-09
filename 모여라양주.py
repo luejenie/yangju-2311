@@ -7,6 +7,7 @@ print("---------------------------------------")
 print("안녕하세요. 이은지입니다. 첫글이에요.")
 print("pull -> commit -> push")
 print("작성시간:", now.strftime('%Y-%m-%D %H:%M:%S'))
+print("작성시간이 계속 바뀌네"))
 print("---------------------------------------")
 
 
@@ -16,7 +17,7 @@ print("---------------------------------------")
 import random
 
 # 1부터 45까지의 숫자 중 6개를 무작위로 선택
-lotto_numbers = ramdom.sample(range(1, 46), 6)
+lotto_numbers = random.sample(range(1, 46), 6)
 
 print("오늘의 행운의 번호는.... ", lotto_numbers)
 
