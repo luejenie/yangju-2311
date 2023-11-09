@@ -1,3 +1,7 @@
+# 가영
+print("화이팅")
+print("저는 맨위부터 작성하겠습니다!!")
+
 # 현재 날짜 구하기
 from datetime import datetime
 now = datetime.now()
